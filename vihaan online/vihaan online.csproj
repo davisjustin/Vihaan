@@ -66,6 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\main.css" />
+    <Content Include="css\styleEvents.css" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,12 +77,32 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="demo.html" />
     <Content Include="events.html" />
     <Content Include="index.html" />
     <Content Include="magnum.aspx" />
     <Content Include="RC-Airshow.html" />
     <Content Include="Register.aspx" />
+    <Content Include="res\cards\a4c.png" />
+    <Content Include="res\cards\about.png" />
+    <Content Include="res\cards\airshow.png" />
+    <Content Include="res\cards\avqz.png" />
+    <Content Include="res\cards\cad.png" />
+    <Content Include="res\cards\flight.png" />
+    <Content Include="res\cards\gram.png" />
+    <Content Include="res\cards\hydro.png" />
+    <Content Include="res\cards\mayday.png" />
+    <Content Include="res\cards\poster.png" />
+    <Content Include="res\cards\ppt.png" />
+    <Content Include="res\cards\skyfall.png" />
+    <Content Include="res\cards\sup.png" />
+    <Content Include="res\cards\vihaan-cards.png" />
+    <Content Include="res\cards\wafter.png" />
+    <Content Include="res\cards\work.png" />
+    <Content Include="res\cover.jpg" />
+    <Content Include="res\flightcut.png" />
+    <Content Include="res\vihaan.png" />
+    <Content Include="res\vlong.png" />
+    <Content Include="res\workshop-img.png" />
     <Content Include="Web.config" />
     <Content Include="workshop.html" />
   </ItemGroup>
@@ -101,10 +123,7 @@
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="res\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
