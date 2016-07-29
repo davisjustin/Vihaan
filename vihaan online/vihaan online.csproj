@@ -75,10 +75,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="demo.html" />
+    <Content Include="events.html" />
+    <Content Include="index.html" />
+    <Content Include="magnum.aspx" />
+    <Content Include="RC-Airshow.html" />
+    <Content Include="Register.aspx" />
     <Content Include="Web.config" />
+    <Content Include="workshop.html" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="magnum.aspx.cs">
+      <DependentUpon>magnum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="magnum.aspx.designer.cs">
+      <DependentUpon>magnum.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="res\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
